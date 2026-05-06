@@ -92,6 +92,12 @@
                         <p>Módulo para consultar stock, entradas, salidas y devoluciones.</p>
                         <a href="{{ route('reportes.index') }}" class="btn btn-success">Entrar</a>
                     </div>
+                                        <div class="module-box">
+                        <h3>chat</h3>
+                        <p>Módulo para consultar stock, entradas, salidas y devoluciones.</p>
+                        <a href="{{ route('reportes.index') }}" class="btn btn-success">Entrar</a>
+                    </div>
+                    
                 @endif
             </div>
         </div>
