@@ -1,0 +1,83 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(135deg,#1f2937,#111827);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-container{
+background:white;
+padding:40px;
+border-radius:10px;
+width:350px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.login-container h2{
+text-align:center;
+margin-bottom:25px;
+}
+
+.input-group{
+margin-bottom:15px;
+}
+
+.input-group label{
+display:block;
+margin-bottom:5px;
+font-weight:bold;
+}
+
+.input-group input{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.btn-login{
+width:100%;
+padding:10px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+.btn-login:hover{
+background:#1d4ed8;
+}
+
+.btn-create{
+margin-top:15px;
+width:100%;
+padding:10px;
+background:#10b981;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.btn-create:hover{
+background:#059669;
+}
+
+.extra-options{
+margin-top:15px;
+text-align:center;
+}
+
+.extra-options a{
+text-decoration:none;
+color:#2563eb;
+}
+
+.extra-options a:hover{
+text-decoration:underline;
+}
